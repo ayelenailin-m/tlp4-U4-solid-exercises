@@ -9,6 +9,7 @@ import DemoSingleResponsibility from "./01-single-responsibility-principle/index
 import DemoOpenClosedPrinciple from "./02-open-closed-principle/index.js";
 import DemoLiskovSubstitutionPrinciple from "./03-liskov-substitution-principle/index.js";
 import { DemoInterfaceSegregation } from "./04-interface-segregation-principle/index.js";
+import { DemoDependencyInversion } from "./05-dependency-inversion-principle/index.js";
 const separacion =
   "===========================================================";
 
@@ -20,4 +21,6 @@ console.log(separacion);
 DemoLiskovSubstitutionPrinciple();
 console.log(separacion);
 DemoInterfaceSegregation();
+console.log(separacion);
+DemoDependencyInversion();
 console.log(separacion);
